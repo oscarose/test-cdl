@@ -16,4 +16,4 @@
 
   tasks:
     - name: run script
-      shell: /usr/bin/sh $WOSKSPACE/test-cdl/cdl.sh
+      shell: /usr/bin/sh $WOSKSPACE/cdl.sh
