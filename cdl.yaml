@@ -6,7 +6,7 @@
   
   tasks:
     - name: run script
-      shell: /usr/bin/sh $WORKSPACE/cdl.sh
+      shell: /bin/sh $WORKSPACE/cdl.sh
 
 
 - hosts: stage
@@ -16,4 +16,4 @@
 
   tasks:
     - name: run script
-      shell: /usr/bin/sh $WOSKSPACE/cdl.sh
+      shell: /bin/sh $WOSKSPACE/cdl.sh
