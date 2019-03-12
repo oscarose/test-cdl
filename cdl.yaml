@@ -6,7 +6,7 @@
   
   tasks:
     - name: run script
-      shell: /usr/bin/sh $WORKSPACE/test-cdl/cdl.sh
+      shell: /usr/bin/sh $WORKSPACE/cdl.sh
 
 
 - hosts: stage
