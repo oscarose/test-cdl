@@ -6,7 +6,7 @@
   
   tasks:
     - name: run script
-      script: $WORKSPACE/cdl.sh
+      script: /root/.jenkins/workspace/test-cdl/cdl.sh
 
 
 - hosts: stage
@@ -16,4 +16,4 @@
 
   tasks:
     - name: run script
-      script: $WOSKSPACE/cdl.sh
+      script: /root/.jenkins/workspace/test-cdl/cdl.sh
