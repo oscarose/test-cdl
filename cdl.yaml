@@ -1,0 +1,19 @@
+---
+- hosts: dev
+  become: yes
+  become_user: root
+  gather_facts: true
+  
+  tasks:
+    - name: run script
+      shell: /usr/bin/sh $WORKSPACE/test-cdl/cdl.sh
+
+
+- hosts: stage
+  become: yes
+  become_user: root
+  gather_facts: true
+
+  tasks:
+    - name: run script
+      shell: /usr/bin/sh $WOSKSPACE/test-cdl/cdl.sh
