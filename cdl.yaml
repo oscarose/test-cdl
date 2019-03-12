@@ -6,7 +6,7 @@
   
   tasks:
     - name: run script
-      shell: /bin/sh /root/.jenkins/workspace/test-cdl/cdl.sh
+      shell: /root/.jenkins/workspace/test-cdl/cdl.sh
 
 
 - hosts: stage
